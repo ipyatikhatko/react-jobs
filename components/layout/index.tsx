@@ -33,7 +33,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </Link>
           </div>
         </div>
-        <main className="flex-1">{children}</main>
+        <main className="overflow-auto flex-1">
+          <div className="max-h-0">{children}</div>
+        </main>
       </div>
     </div>
   );
