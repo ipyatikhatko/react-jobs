@@ -19,10 +19,10 @@ const JobPreview: FC<JobPreviewProps> = ({ title, jobRate, company }) => {
         </div>
         <h4 className="text-sm font-light">{company}</h4>
         <div className="mt-2 flex gap-2 text-xs">
-          <Chip>typescript</Chip>
-          <Chip>zustand</Chip>
-          <Chip>mui</Chip>
-          <Chip>next.js</Chip>
+          <Chip className="group-hover:bg-slate-200">typescript</Chip>
+          <Chip className="group-hover:bg-slate-200">zustand</Chip>
+          <Chip className="group-hover:bg-slate-200">mui</Chip>
+          <Chip className="group-hover:bg-slate-200">next.js</Chip>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ const Chip: FC<ChipProps> = ({ className, children }) => {
   return (
     <span
       className={clsx(
-        "px-2 py-1 bg-slate-100 group-hover:bg-slate-300 rounded-full shadow-md",
+        "px-2 py-1 bg-slate-100 rounded-full shadow-md transition-transform hover:scale-110",
         className
       )}
     >
